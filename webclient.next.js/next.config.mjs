@@ -1,9 +1,8 @@
-const {i18n} = require('@/public/locales/next-i18next.config')
+import { i18n } from './src/public/locales/next-i18next.config.mjs'; // Cambia require por import
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    i18n,
+  i18n,
 };
 
 export default nextConfig;
-
